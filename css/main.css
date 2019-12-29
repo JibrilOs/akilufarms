@@ -53,7 +53,7 @@ h1 {
 	margin-top: 550px;
   margin-bottom: 20px;
 	color: #fff;
-	font-size: 540%;
+	font-size: 544%;
 	word-spacing: 4px;
   letter-spacing: 1px;
   margin-left: 20%;
@@ -67,16 +67,28 @@ h1::after{
 }
 
 h2 {
-	font-size: 180%;
-	word-spacing: 2px;
+	font-size: 24px;
+	font-weight: bolder;
+	word-spacing: 3px;
 	text-align: center;
-	margin-bottom: 30px;
+	color: #fff;
 	letter-spacing: 1px;
+	background:rgba(0, 0, 0, 0.384);
+	border: 2px solid rgba(111, 0, 255, 0.37);
+
+	width: 97%;
+	margin: 0 auto;
 }
 
 h3 {
-	font-size: 110%;
-	margin-bottom: 15px;
+	color: #fff;
+	font-size: 23px;
+	font-weight: bolder;
+	word-spacing: 3px;
+  letter-spacing: 1px;
+  margin-left: 19%;
+ 
+
 }
 /*****headINGS*******/
 
