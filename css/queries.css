@@ -31,7 +31,7 @@
         font-weight: bold;
         word-spacing: 4px;
       letter-spacing: 1px;
-      margin-left: 19%;
+      margin-left: 15%;
      
     }
     h1::after{
@@ -40,6 +40,23 @@
       border-bottom:9px solid rgba(78, 34, 235, 0.616);
     
     }
+    h2 {
+        font-size: 24px;
+        font-weight: bolder;
+        word-spacing: 3px;
+        text-align: center;
+        color: #fff;
+        letter-spacing: 1px;
+        background:rgba(0, 0, 0, 0.288);
+        
+        width: 89%;
+        margin:  0 auto;
+        animation-duration: 100ms;
+        animation-delay: 1s;
+    
+        
+    }
+    
     .bg-light{
         background: rgba(0, 0, 0, 0.432)!important;
         color: white!important;
