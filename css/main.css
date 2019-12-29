@@ -26,6 +26,7 @@ width: 100%;
 height: 100vh;
 background-position: center;
 background-size: cover;
+clip-path: polygon();
 }
 /*****header*******/
 
@@ -57,6 +58,8 @@ h1 {
 	word-spacing: 4px;
   letter-spacing: 1px;
   margin-left: 20%;
+  animation-duration: 100ms;
+	animation-delay: 1s;
  
 }
 h1::after{
@@ -73,11 +76,14 @@ h2 {
 	text-align: center;
 	color: #fff;
 	letter-spacing: 1px;
-	background:rgba(0, 0, 0, 0.384);
-	border: 2px solid rgba(111, 0, 255, 0.37);
+	background:rgba(0, 0, 0, 0.151);
+	
+	width: 87%;
+	margin:  0 auto;
+	animation-duration: 100ms;
+	animation-delay: 1s;
 
-	width: 97%;
-	margin: 0 auto;
+	
 }
 
 h3 {
