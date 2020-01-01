@@ -21,6 +21,11 @@
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+    body{
+
+        padding: 0px;
+    }
+    
     h1 {
 
 
@@ -85,9 +90,17 @@
        
 
     }
-    .cardbox{
+/*********
+    .container{
+        margin-top: 30px;
+    
+        
+}
 
-        margin-left: 0!important;
-        width: 40%;	
-        }
+******/
+.cardbox{
+
+    margin-left:156px0!important;
+    margin-bottom: 5px;
+    }
 }

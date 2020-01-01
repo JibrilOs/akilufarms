@@ -1,8 +1,11 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
 
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 
 body{
@@ -16,18 +19,29 @@ body{
 	padding: 20px;
 }
 .row{
-  max-width: 1140px;
+  max-width: 1280px;
 	margin: 0 auto;
+	-webkit-animation-duration: 3000ms;
+          animation-duration: 3000ms;
+	-webkit-animation-delay: 0s;
+	        animation-delay: 0s;
 }
 /*****header*******/
 .header{
+
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.719)), to(rgba(0, 0, 0, 0.39)) ), url(/imgs/chickens-4145198_1280.jpg);
+
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.39) ), url(/imgs/chickens-4145198_1280.jpg);
 
   background-image: linear-gradient(to  right, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.39) ), url(/imgs/chickens-4145198_1280.jpg);
 width: 100%;
 height: 95vh;
 background-position: center;
 background-size: cover;
-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+
 }
 /*****header*******/
 
@@ -60,8 +74,10 @@ h1 {
 	word-spacing: 4px;
   letter-spacing: 1px;
   text-align: center;
-  animation-duration: 100ms;
-	animation-delay: 1s;
+  -webkit-animation-duration: 100ms;
+          animation-duration: 100ms;
+	-webkit-animation-delay: 1s;
+	        animation-delay: 1s;
  
 }
 h1::after{
@@ -85,8 +101,10 @@ h2 {
 	
 	width: 87%;
 	margin:  0 auto;
-	animation-duration: 100ms;
-	animation-delay: 1s;
+	-webkit-animation-duration: 100ms;
+	        animation-duration: 100ms;
+	-webkit-animation-delay: 1s;
+	        animation-delay: 1s;
 
 	
 }
@@ -116,7 +134,7 @@ margin-top: -200px;
   
 /* content */
 .maincontent{
-	background: rgba(51, 20, 2, 0.048);
+	
 	height: 100vh;
 	position: relative;
 	margin-top: -490px;
@@ -127,17 +145,58 @@ margin-top: -200px;
 .carrd {
 	position: absolute;
 	top: 60% !important;
-	width: 80%;
+	width: 100%;
+	height: 100vh;
 	margin: 0 auto;
+	
   }
- 
-.cardbox{
 
-margin-left: 156px!important;	
+  /*****its the cardbox css from boostrap******/
+  
+#gall{
+margin-top: 0;
+margin-bottom: 20px;
+	text-align: center;
+	
+	color:black
+ }
+  .cardbox{
+	  width: 100% !important;
+	  margin-bottom: 18px;
+  }
+
+
+  .card-body{
+	background: rgba(0, 0, 0, 0.144);
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+	padding-top: 1px;
+
+	
 }
+  .card-text{
+	  font-size: 16px;
+	  font-weight: 600;
+	  text-transform: uppercase;
+	  word-spacing: 2px;
+	letter-spacing: 1px;
+height: 128px;
+  }
+  
+  .card{
+	  width: 21rem!important;
+  }
+  
+
+
+ /*****its the cardbox css from boostrap******/
+ 
 
 /* content */
 
 
 /******buttons******/
-
